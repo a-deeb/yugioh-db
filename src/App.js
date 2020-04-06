@@ -14,7 +14,6 @@ constructor(){
 
   };
 
-//add a comment here
 this.handleChange = this.handleChange.bind(this);
 
 }
@@ -22,7 +21,7 @@ this.handleChange = this.handleChange.bind(this);
 componentDidMount(){
 fetch('https://db.ygoprodeck.com/api/v6/cardinfo.php')
 .then(response => response.json())
-//.then(cards => console.log(cards))
+
 .then(cards => this.setState({monsters: cards}))
 
 }
@@ -40,16 +39,6 @@ handleChange(e){
   return (
     <div className="App">
     <h1>Yugioh Duel Monsters</h1>
-    {/* <input 
-    type='search'
-    placeholder='search for Yugioh Card'
-    onChange={e => {
-      this.setState({searchfield: e.target.value},()=> console.log(this.state))}}
-
-
-    }} /> */}
-
-
     <SearchBox 
     placeholder='Search Yugioh Cards'
     handleChange={this.handleChange} />
