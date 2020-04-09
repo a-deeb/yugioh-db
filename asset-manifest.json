@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/yugioh-db/static/css/main.83e1afe8.chunk.css",
-    "main.js": "/yugioh-db/static/js/main.60fb301f.chunk.js",
-    "main.js.map": "/yugioh-db/static/js/main.60fb301f.chunk.js.map",
+    "main.js": "/yugioh-db/static/js/main.7daf2911.chunk.js",
+    "main.js.map": "/yugioh-db/static/js/main.7daf2911.chunk.js.map",
     "runtime-main.js": "/yugioh-db/static/js/runtime-main.8df8ffb4.js",
     "runtime-main.js.map": "/yugioh-db/static/js/runtime-main.8df8ffb4.js.map",
     "static/js/2.a9e04bff.chunk.js": "/yugioh-db/static/js/2.a9e04bff.chunk.js",
     "static/js/2.a9e04bff.chunk.js.map": "/yugioh-db/static/js/2.a9e04bff.chunk.js.map",
     "index.html": "/yugioh-db/index.html",
-    "precache-manifest.0cf7f5d581bf9e9174e58ac34812f50e.js": "/yugioh-db/precache-manifest.0cf7f5d581bf9e9174e58ac34812f50e.js",
+    "precache-manifest.25f580b9de4e6f98d679f574479e7799.js": "/yugioh-db/precache-manifest.25f580b9de4e6f98d679f574479e7799.js",
     "service-worker.js": "/yugioh-db/service-worker.js",
     "static/css/main.83e1afe8.chunk.css.map": "/yugioh-db/static/css/main.83e1afe8.chunk.css.map",
     "static/js/2.a9e04bff.chunk.js.LICENSE.txt": "/yugioh-db/static/js/2.a9e04bff.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8df8ffb4.js",
     "static/js/2.a9e04bff.chunk.js",
     "static/css/main.83e1afe8.chunk.css",
-    "static/js/main.60fb301f.chunk.js"
+    "static/js/main.7daf2911.chunk.js"
   ]
 }
