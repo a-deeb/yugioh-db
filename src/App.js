@@ -40,7 +40,7 @@ handleChange(e){
     <div className="App">
     <h1>Yugioh Duel Monsters</h1>
     <SearchBox 
-    placeholder='Search Yugioh Cards'
+    placeholder='Search for a Yugi-oh Card'
     handleChange={this.handleChange} />
     <CardList monsters={filteredMonsters}/>
 
