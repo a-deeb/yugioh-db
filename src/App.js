@@ -2,17 +2,18 @@ import React, { Component } from 'react';
 import './App.css';
 import {CardList} from './components/card-list/card-list.component'
 import {SearchBox} from './components/search-box/search-box.component'
+
 class App extends Component {
 
 constructor(){
-  super();
+super();
 
-  this.state ={ 
+this.state ={ 
 
-    monsters: [],
-    searchfield: ''
+monsters: [],
+searchfield: ''
 
-  };
+};
 
 this.handleChange = this.handleChange.bind(this);
 
@@ -28,24 +29,26 @@ fetch('https://db.ygoprodeck.com/api/v6/cardinfo.php')
 
 handleChange(e){
 
-   this.setState({searchfield: e.target.value})
+this.setState({searchfield: e.target.value})
 
 }
 
-  render() {
+render() {
 
-    const {monsters, searchfield} = this.state;
-    const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchfield.toLowerCase()) )
-  return (
-    <div className="App">
-    <h1>Yugioh Duel Monsters</h1>
-    <SearchBox 
-    placeholder='Search for a Yugi-oh Card'
-    handleChange={this.handleChange} />
-    <CardList monsters={filteredMonsters}/>
+const {monsters, searchfield} = this.state;
+const filteredMonsters = monsters.filter(monster => monster.name.toLowerCase().includes(searchfield.toLowerCase()) )
+return (
+<div className="App">
+<h1>Yugioh Duel Monsters</h1>
 
-    </div>
-  );
+
+<SearchBox 
+placeholder=' Search for a Yugi-oh Card'
+handleChange={this.handleChange} />
+<CardList monsters={filteredMonsters}/>
+
+</div>
+);
 }
 }
 export default App;
