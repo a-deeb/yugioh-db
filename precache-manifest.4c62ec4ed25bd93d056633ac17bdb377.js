@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "83849d0e041953c14d2a32aa2362101b",
+    "revision": "6343d53a46599812cad8603886467b59",
     "url": "/yugioh-db/index.html"
   },
   {
-    "revision": "7fe0b0dcb8dbce975ece",
-    "url": "/yugioh-db/static/css/main.4f29b2bb.chunk.css"
+    "revision": "2b7a5465759eb64872ca",
+    "url": "/yugioh-db/static/css/main.9fc27ee2.chunk.css"
   },
   {
     "revision": "5f6ae762b2e85da0ffa0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yugioh-db/static/js/2.a9e04bff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7fe0b0dcb8dbce975ece",
-    "url": "/yugioh-db/static/js/main.2dc70794.chunk.js"
+    "revision": "2b7a5465759eb64872ca",
+    "url": "/yugioh-db/static/js/main.80f0a2e2.chunk.js"
   },
   {
     "revision": "ce1947bee80679c2c406",
